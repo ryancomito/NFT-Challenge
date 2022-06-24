@@ -77,20 +77,20 @@ span {
   border-radius: 0.8rem;
 }
 
-.equilibrium-image::after {
-  content: '';
+/* .testing {
   width: inherit;
   height: inherit;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: hsl(178, 100%, 50%);
-  opacity: 0;
-}
+} */
 
-.equilibrium-image:hover .equilibrium-image::after {
-  opacity: 1;
+/* .equilibrium-image:hover {
+  cursor: pointer;
+  background-color: hsl(178, 100%, 50%);
+  background-blend-mode: multiply;
+} */
+
+.equilibrium-image:hover {
+  cursor: pointer;
+  background-color: hsl(178, 100%, 50%);
 }
 
 .avatar {
@@ -139,10 +139,6 @@ span {
   .price, .time {
     width: 30%;
   }
-}
-
-.equilibrium-image:hover {
-  opacity: 0;
 }
 
 h2:hover, span:hover {
